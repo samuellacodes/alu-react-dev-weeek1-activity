@@ -1,10 +1,11 @@
 {
   "name": "alu-react-dev-weeek1-activity",
   "version": "1.0.0",
-  "description": "",
+  "description": "Week 1 activity for ALU React Development course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/samuellacodes/alu-react-dev-weeek1-activity/issues"
   },
-  "homepage": "https://github.com/samuellacodes/alu-react-dev-weeek1-activity#readme"
+  "homepage": "https://github.com/samuellacodes/alu-react-dev-weeek1-activity#readme",
+  "devDependencies": {
+    "ts-loader": "^9.6.2",
+    "typescript": "^7.0.2",
+    "webpack": "^5.110.3",
+    "webpack-cli": "^7.2.3"
+  }
 }
